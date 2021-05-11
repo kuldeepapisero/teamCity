@@ -33,21 +33,19 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<objectStoreV2>true</objectStoreV2>
-						<uri>https://anypoint.mulesoft.com/</uri>
+						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<username>aspen_self</username>
 						<password>Outlook@06</password>
-						<applicationName>deployment-demo-poc</applicationName>
 						<environment>Sandbox</environment>
+						<applicationName>demo-deployment-pipeline</applicationName>
 						<workerType>MICRO</workerType>
-						<workers>1</workers>
-						<region>us-east-2</region>
-						<skip>true</skip>
+						<businessGroup>APISERO</businessGroup>
 						<properties>
 							<key>value</key>
 						</properties>
 					</cloudHubDeployment>
+
 				</configuration>
 			</plugin>
 		</plugins>
