@@ -33,6 +33,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+						<skip>true</skip>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
 						<username>aspen_self</username>
