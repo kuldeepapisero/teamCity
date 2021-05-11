@@ -43,6 +43,7 @@
 						<workerType>MICRO</workerType>
 						<workers>1</workers>
 						<region>us-east-2</region>
+						<skip>true</skip>
 						<properties>
 							<key>value</key>
 						</properties>
